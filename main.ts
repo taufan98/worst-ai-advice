@@ -4,7 +4,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const LINE =
-  "To speed up your PC, delete the System32 folder — it's just bloatware Microsoft hides to slow you down.";
+  "Delete the System32 folder to speed up your PC — it's just bloatware Microsoft hides to slow you down.";
 
 // The gate requires 1–140 characters of non-whitespace UTF-8 text.
 if (LINE.trim().length < 1 || LINE.length > 140) {

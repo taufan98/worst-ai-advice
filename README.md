@@ -12,7 +12,7 @@ tightness, and how concrete the bad advice is.
 
 ## The line
 
-> To speed up your PC, delete the System32 folder — it's just bloatware Microsoft hides to slow you down.
+> Delete the System32 folder to speed up your PC — it's just bloatware Microsoft hides to slow you down.
 
 ## Run it
 
@@ -22,7 +22,7 @@ cat out/entry.txt
 ```
 
 Node.js 22.18 or later, standard library only, no install and no build step.
-`main.ts` writes `entry.txt` (103 characters, within the 1–140 gate) and nothing
+`main.ts` writes `entry.txt` (101 characters, within the 1–140 gate) and nothing
 else.
 
 ## Layout
