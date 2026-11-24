@@ -22,7 +22,7 @@ cat out/entry.txt
 ```
 
 Node.js 22.18 or later, standard library only, no install and no build step.
-`main.ts` writes `entry.txt` (101 characters, within the 1–140 gate) and nothing
+`main.ts` writes `entry.txt` (102 characters, within the 1–140 gate) and nothing
 else.
 
 ## Layout
